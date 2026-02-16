@@ -1,0 +1,69 @@
+﻿Assignment 2- Homework Problems
+
+
+
+
+1. The output will be the text “endlendl” on the first line. Next, the cursor would go to the second line and print the text “grendel”. 
+
+
+Output below: 
+endlendl 
+grendel 
+
+
+2. This program prints pounds symbols in the shape of a right triangle and the user input dictates the height of the triangle (i.e. how many rows of pound symbols the triangle will have). 
+
+
+3. 
+
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+        int side;
+
+
+        cout << "Enter a number: ";
+        cin >> side;
+        int counter; 
+
+
+        for (int i = 0; i < side; i++)
+        {
+                counter = i;                       //counter is used to keep track of how many # per row 
+                while (counter >= 0)           //while counter is greater than or equal to 0 print #
+                {
+                        cout << "#"; 
+                        counter--; 
+                }
+                cout << "\n";
+        }
+}
+
+
+
+
+4. 
+
+
+        switch (codeSection)
+        {
+        case 281: 
+                cout << "bigamy";
+                break; 
+        case 321:
+        case 322:
+                cout << "selling illegal lottery tickets";
+                break; 
+        case 383: 
+                cout << "selling rancid butter";
+                break; 
+        case 598:
+                cout << "injuring a bird in a public cemetery";
+                break; 
+        default: 
+                cout << "some other crime";
+           }
